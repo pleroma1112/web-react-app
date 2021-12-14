@@ -32,7 +32,7 @@ function ReactLTE(){
                     <Header.Left>
                         <Header.NavItem>
                             <p className="mb-1" onClick={()=>{
-                                ajax('GET','/auth/logout',null,()=>{
+                                ajax('GET','/api/auth/logout',null,()=>{
                                     window.location.href = '/'
                                 })
                             }}>Logout<span className="ml-2"><FaSignOutAlt/></span></p>
