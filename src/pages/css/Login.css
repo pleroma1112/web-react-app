@@ -1,0 +1,17 @@
+.login-compo .login-logo {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.login-compo .row {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.login-compo .card {
+    width: 450px;
+}
+.login-compo .form-control {
+    border-top-left-radius: 5% 50%!important;
+    border-bottom-left-radius: 5% 50%!important;
+}
+.login-compo .input-group-text {
+    border-top-right-radius: 35% 50%!important;
+    border-bottom-right-radius: 35% 50%!important;
+}

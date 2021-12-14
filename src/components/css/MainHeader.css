@@ -1,0 +1,9 @@
+.header-nav-item {
+    cursor: pointer;
+}
+.header-nav-item:hover {
+    color: black;
+}
+.main-header {
+    height: 58px;
+}

@@ -1,0 +1,41 @@
+.main-sidebar {
+    width: 250px;
+    transition: all 0.3s ease-out 0s;
+    overflow: hidden;
+}
+.main-sidebar.collapse {
+    width: 0px
+}
+.sidebar-logo {
+    height: 57px;
+}
+.user-panel {
+    height: 72px;
+}
+.user-panel, .sidebar-logo {
+    border-bottom: 1px solid #4b545c;
+}
+.side-menu {
+    height: calc(100% - 57px);
+    overflow: auto;
+}
+.overlay-scroll {
+    max-height: 100%;
+}
+.side-menu .list-group-item {
+    background-color: transparent;
+}
+.side-menu .list-group-item a:hover {
+    background-color: rgba(255, 255, 255, .1)
+}
+.has-tree.menu-open>a{
+    background-color: rgba(255, 255, 255, .1)
+}
+.has-tree svg{
+    transform : rotateZ(0deg);
+    transition: all 0.3s ease-out 0s;
+}
+.has-tree.menu-open svg{
+    transform : rotateZ(-90deg);
+    transition: all 0.3s ease-out 0s;
+}
